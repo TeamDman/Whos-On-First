@@ -1,15 +1,42 @@
 html, body {
-    height: 100%;
+	height: 100%;
+	background-color: tan;
 }
 body {
-    margin: 0;
+	margin: 0;
 }
 
-.container {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+#container {
+	position: absolute;
+	top:0;
+	width: 100%;
+}
+#background {
+	position: absolute;
+	width: 100%;
+	height: calc(100vh * 720 / 960);
+}
+
+#face {
+	position: fixed;
+	width:30%;
+	right: 5%;
+	top:43%;
+	max-height: 25%;
+}
+
+#quote {
+	position: fixed;
+	right:0%;
+	top:68%;
+	width:40%;
+	/* background-color: orange; */
+}
+
+#condition {
+	position: fixed;
+	left: 5.3%;
+	top: 60%;
+	/* background-color:orange; */
+
 }
