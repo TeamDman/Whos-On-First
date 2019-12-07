@@ -4,39 +4,43 @@ html, body {
 }
 body {
 	margin: 0;
+	font-size: 24px;
 }
 
 #container {
-	position: absolute;
+	position: fixed;
 	top:0;
 	width: 100%;
+	height: 100%;
 }
 #background {
 	position: absolute;
 	width: 100%;
-	height: calc(100vh * 720 / 960);
+	height: 100%; 
+	/* calc(100vh * 720 / 960); */
 }
 
 #face {
-	position: fixed;
+	position: absolute;
 	width:30%;
 	right: 5%;
-	top:43%;
+	top:60%;
 	max-height: 25%;
 }
 
 #quote {
-	position: fixed;
+	position: absolute;
 	right:0%;
-	top:68%;
+	bottom: 10%;
 	width:40%;
 	/* background-color: orange; */
 }
 
 #condition {
-	position: fixed;
+	position: absolute;
 	left: 5.3%;
-	top: 60%;
+	top: 80%;
+	width: 50%;
 	/* background-color:orange; */
 
 }
